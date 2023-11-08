@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         'lemon-regular': ['LEMONMILK-Regular', 'sans'],
         'lemon-medium': ['LEMONMILK-Medium', 'sans'],
+        'lemon-light': ['LEMONMILK-Light', 'sans'],
       },
       colors: {
         'eum-red': '#ED1C24',

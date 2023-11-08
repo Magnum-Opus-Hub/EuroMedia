@@ -10,7 +10,7 @@ const ServiciiNav: React.FC = () => {
   const isActive = (path: string) => pathname === path;
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 flex justify-center py-3"> {/* Increased py here for nav */}
+    <nav className="fixed z-10 bottom-0 left-0 right-0 flex justify-center py-3"> {/* Increased py here for nav */}
       <div className="flex bg-eum-blue py-1 px-1 rounded-2xl shadow-lg w-full max-w-md mx-auto"> {/* Decreased py here for the container div to allow red background to be almost as tall as the nav */}
         <Link
           href="/products"
