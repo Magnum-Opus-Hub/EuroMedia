@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="ro" className='bg-[#1E1E1E] text-white'>
       <body className={inter.className}>
-      <Navbar />
+        <Navbar />
         {children}
         <Analytics />
         <Footer />

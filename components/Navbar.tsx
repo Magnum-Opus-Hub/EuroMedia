@@ -1,10 +1,10 @@
-// components/Navbar.tsx
+// components/navbar.tsx
 'use client'
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const Navbar: React.FC = () => {
+const navbar: React.FC = () => {
   return (
     <nav className="flex items-center justify-between p-2 text-white ">
       <div className="flex items-center">
@@ -36,4 +36,4 @@ const Navbar: React.FC = () => {
   );
 };
 
-export default Navbar;
+export default navbar;
