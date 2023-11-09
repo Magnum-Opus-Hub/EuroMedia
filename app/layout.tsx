@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
- 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: { 
   children: React.ReactNode
 }) {
   return (
